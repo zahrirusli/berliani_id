@@ -13,12 +13,12 @@
     
 
     <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <!-- <link rel="dns-prefetch" href="//fonts.gstatic.com"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> -->
 
     <!-- Styles -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="{{ asset('css/open-iconic-bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
@@ -46,18 +46,13 @@
         <avored-layout inline-template>
             <div>
                 @include('partials.nav')
-                <div class="mt-5">
+                <div class="border-t">
                     @include('partials.breadcrumb')
-                    <div class="bg-white container mx-auto">
-                        <div class="flex">
-                            <div class="ml-5">
-                                <div>
-                                    @yield('breadcrumb')
-                                </div>
-                                @yield('content')
-                            </div>
-                        </div>
-                    </div>
+     
+                    @yield('breadcrumb')
+
+                    @yield('content')
+                   
                 </div>
                 
                 <div  class="border-t">

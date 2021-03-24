@@ -55,9 +55,9 @@
         <div class="row">
           <div class="col-md-12 text-center">
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						   &copy;<script>document.write(new Date().getFullYear());</script> Develop with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://www.linkedin.com/in/zahri-rusli/" target="_blank">Siezil Dev</a>
-						  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <p>
+						   &copy;2021 Develop with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://www.linkedin.com/in/zahri-rusli/" target="_blank">Siezil Dev</a>
+						  
 						</p>
           </div>
         </div>

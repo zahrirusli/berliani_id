@@ -16,9 +16,17 @@
 	        <ul class="navbar-nav ml-auto">
           @foreach ($menus as $menu)
             <li class="nav-item active">
-              <a href="{{ $menu->url }}" class="nav-item nav-link hover:text-gray-900">
-                  {{ $menu->name }}
-              </a> 
+              @if ($menu->type === 'FRONT_MENU')
+                @if ( $menu->name !== 'Cart'  )
+                <a href="{{ $menu->url }}" class="nav-item nav-link hover:text-gray-900">
+                    {{ $menu->name }}
+                </a>     
+                @else
+                  <a href="{{ $menu->url }}" class="nav-item nav-link hover:text-gray-900">
+                  <span class="icon-shopping_cart"></span>
+                  </a>
+                @endif
+              @endif
             </li>
             @endforeach
 	        </ul>
