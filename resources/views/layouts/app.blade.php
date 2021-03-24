@@ -47,9 +47,6 @@
             <div>
                 @include('partials.nav')
                 <div class="border-t">
-                    @include('partials.breadcrumb')
-     
-                    @yield('breadcrumb')
 
                     @yield('content')
                    

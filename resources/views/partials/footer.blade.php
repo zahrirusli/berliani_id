@@ -56,7 +56,7 @@
           <div class="col-md-12 text-center">
 
             <p>
-						   &copy;2021 Develop with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://www.linkedin.com/in/zahri-rusli/" target="_blank">Siezil Dev</a>
+						   &copy;2021 Develop with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://sleepy-ritchie-50d383.netlify.app/" target="_blank">Siezil Dev</a>
 						  
 						</p>
           </div>

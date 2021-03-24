@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('breadcrumb')
-<div class="bg-gray-200 p-3 rounded text-sm mb-5">
+<!-- <div class="bg-gray-200 p-3 rounded text-sm mb-5">
     <ol class="list-reset flex text-gray-700">
       <li>
           <a class=" font-semibold" href="{{ route('home') }}">
@@ -10,12 +10,13 @@
       </li>
        <li> <span class="">{{ $product->name }}</span></li>
     </ol>
-</div>
+</div> -->
 @endsection
 
 @section('content')
 <product-page :product="{{ $product }}" :variations="{{ $product->getVariations() }}" inline-template>
-  <div class="container mx-auto">    
+  <div class="container">  
+    
       @if (session('type') === 'success')
         @include('components.success', ['message' => session('message')])
       @endif
