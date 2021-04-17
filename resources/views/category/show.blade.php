@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 
-@section('breadcrumb')
+<!-- @section('breadcrumb')
 <div class="bg-gray-200 p-3 rounded text-sm mb-5">
     <ol class="list-reset flex text-gray-700">
       <li>
@@ -12,9 +12,19 @@
        <li> <span class="">{{ $category->name }}</span></li>
     </ol>
 </div>
-@endsection
+@endsection -->
 
 @section('content')
+<div class="hero-wrap hero-bread" style="background-image: url('images/bg_2.jpg');">
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+          <div class="col-md-9 ftco-animate text-center">
+            <h1 class="mb-0 bread">Collection</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Product</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
 <category-page
   current-url="{{ request()->url() }}"
   :filter-prop="{{ json_encode(request()->all()) }}"
